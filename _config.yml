@@ -1,8 +1,8 @@
 # Setup
-title:               Weidumller Evt Report Site
+title:               Weidumller Evt
 tagline:             'Report Site'
-description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 https://lanyon.getpoole.com
+description:         'This website show the past EVT report about weidumller app on Android and Ios devices.'
+url:                 https://kuanchunchen.github.io/WM_Evt_Site/
 baseurl:             ''
 paginate:            5
 permalink:           pretty
