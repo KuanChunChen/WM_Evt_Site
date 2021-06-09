@@ -8,6 +8,8 @@ title: About
   {{ node.title }}
 </p>
 
+* [Android Evt v6 test]({% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}")
+
 
 {{ page.title }}
 我的第一篇文章
