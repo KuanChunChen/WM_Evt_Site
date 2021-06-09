@@ -4,13 +4,31 @@ title: About
 ---
 
 <p class="message">
-  Hey there! This page is included post release evt report.  Feel free to click below link to see the report.
+  Hey there! This page is included evt report which were release in the past.  Feel free to click below link to see the report.
 </p>
 
 
 
 # Android Evt Report
 ----------
+
+    {% assign pages_list = site.pages | sort:"url" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          
+<p class="message">
+  node.title
+  {node.title}
+  {{ node.url | absolute_url }}
+  {{ node.title | absolute_url }}
+  {{ node.title}}
+</p>
+
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
 
 * [Android Evt v6 test]({% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}")
 
