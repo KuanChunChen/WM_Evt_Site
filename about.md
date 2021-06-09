@@ -9,6 +9,9 @@ title: About
 </p>
 
 
+{{ page.title }}
+我的第一篇文章
+{{ page.date | date_to_string }}
 
 There are currently two themes built on Poole:
 
