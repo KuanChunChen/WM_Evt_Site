@@ -17,11 +17,11 @@ title: About
       {% if node.title != null %}
         {% if node.layout == "page" %}
           
-<br class="message">
-  {{ node.url | absolute_url  \n}}
-  {{ node.title | absolute_url \n}}
-  {{ node.title \n}}
-</br>
+<p class="message">
+  {{ node.url | absolute_url  \n}}<br>
+  {{ node.title | absolute_url \n}}<br>
+  {{ node.title }}<br>
+</p>
 
         {% endif %}
       {% endif %}
