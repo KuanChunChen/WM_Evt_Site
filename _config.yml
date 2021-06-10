@@ -2,7 +2,7 @@
 title:               Weidumller Evt
 tagline:             'Report Site'
 description:         'This website show the past EVT report about weidumller app on Android and Ios devices.'
-url:                 https://kuanchunchen.github.io/WM_Evt_Site/
+url:                 http://localhost:4000/
 baseurl:             ''
 paginate:            5
 permalink:           pretty

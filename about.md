@@ -12,19 +12,21 @@ title: About
 # Android Evt Report
 ----------
 
-    {% assign pages_list = site.pages | sort:"url" %}
+    {% assign pages_list = site.html_pages | sort:"url" %}
     {% for node in pages_list %}
-      {% if node.title != null %}
-        {% if node.layout == "page" %}
+   
           
 <p class="message">
-  {{ node.url | absolute_url  \n}}<br>
-  {{ node.title | absolute_url \n}}<br>
-  {{ node.title }}<br>
+
+
+  {{ node}}<br>
+
+  wwwwww
 </p>
 
-        {% endif %}
-      {% endif %}
+
+
+
     {% endfor %}
 
 
