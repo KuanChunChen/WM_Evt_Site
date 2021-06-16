@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Weidmuller lite auto test about register flow.
+title: Android Weidmuller 2.5.7 A6 lite auto test about register flow.
 ---
 
 

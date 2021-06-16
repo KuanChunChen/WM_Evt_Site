@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ios Weidmuller full auto test.
+title: Ios Weidmuller 1.0.0(11) full auto test.
 ---
 
 
@@ -14,7 +14,7 @@ title: Ios Weidmuller full auto test.
   Test app<br> 
     &nbsp;&nbsp;&nbsp; Name : Weidumller <br>
     &nbsp;&nbsp;&nbsp; Bundle ID: com.oring.weidmulleriosapp  <br>
-    &nbsp;&nbsp;&nbsp; Version : 1.0.0 <br><br>
+    &nbsp;&nbsp;&nbsp; Version : 1.0.0(11) <br><br>
   IOS :<br>
     &nbsp;&nbsp;&nbsp; Device : iPhone 12 Pro <br>
     &nbsp;&nbsp;&nbsp; IOS Version : 14.5 <br><br>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Weidmuller full auto test.
+title: Android Weidmuller 2.5.7 A6 full auto test.
 ---
 
 

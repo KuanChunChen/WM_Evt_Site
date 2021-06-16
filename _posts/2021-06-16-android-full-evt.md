@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Android Weidmuller full auto test.
+title: Android Weidmuller 2.5.7 A7 full auto test.
 ---
 
 
@@ -9,9 +9,9 @@ title: Android Weidmuller full auto test.
 * Main test case 
   > 1.full ui test.<br>
     2.New test case and new feature:<br>
-    &nbsp;&nbsp;&nbsp; a.I/O detail test case and log : DI,DO,AI,RTU
-    &nbsp;&nbsp;&nbsp; b.Force mode test case and log.
-    &nbsp;&nbsp;&nbsp; c.cloudsetting and networkstatus log.
+    &nbsp;&nbsp;&nbsp; a.I/O detail test case and log : DI,DO,AI,RTU<br>
+    &nbsp;&nbsp;&nbsp; b.Force mode test case and log.<br>
+    &nbsp;&nbsp;&nbsp; c.cloudsetting and networkstatus log.<br>
 * Test environment
   > 
   Test app :<br> 
