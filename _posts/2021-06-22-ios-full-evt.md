@@ -7,7 +7,7 @@ title: Ios Weidmuller 1.0.0(17) full auto test.
 * See Evt Report : [Here]({{ 'evtReports/ios/full-test/r4/evt' | absolute_url }}){:target="_blank"}
 
 * Main test case 
-  > 1.full ui test. 
+  > 1.full ui test. <br>
     2.New test case and new feature:<br>
     &nbsp;&nbsp;&nbsp; a.Start page test.<br>
     &nbsp;&nbsp;&nbsp; b.Gateway full ui test.<br>
