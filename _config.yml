@@ -1,9 +1,10 @@
 # Site settings
+
 name: Weidumller Evt Report Site
 
-url: https://kuanchunchen.github.io/WM_Evt_Site/
+url: https://kuanchunchen.github.io/WM_Evt_Site
 
-baseurl: ''
+baseurl: 'https://kuanchunchen.github.io/WM_Evt_Site'
 
 
 #permalink: /:categories/:year/:month/:day/:title/
