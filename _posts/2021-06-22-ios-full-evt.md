@@ -9,7 +9,7 @@ categories: ios
 
 Evt Report  {#seeevt}
 ====================================
- + [Here]({{ 'evtReports/ios/full-test/r4/evt' | absolute_url }}){:target="_blank"}
+ + [Here]({{ '/evtReports/ios/full-test/r4/evt'| prepend: site.baseurl}}){:target="_blank"}
 
 Main test case {#maintestcase}
 ====================================
