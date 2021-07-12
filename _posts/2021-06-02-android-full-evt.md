@@ -1,25 +1,38 @@
 ---
 layout: post
 title: Android Weidmuller 2.5.7 A6 full auto test.
+categories: android
+
 ---
+* content
+{:toc}
 
+Evt Report  {#seeevt}
+====================================
+ + [Here]({{ 'evtReports/android/full-test/r1/evt'|absolute_url}}){:target="_blank"}
 
-* See Evt Report : [Here]({{ 'evtReports/android/full-test/r1/evt'|absolute_url}}){:target="_blank"}
+Main test case {#maintestcase}
+====================================
+ 
++ 1.full ui test
+------------------------------------
 
-* Main test case 
-  > 1.full ui test.<br>
+Test environment {#testenviorment}
+====================================
++ Test app info  {#appinfo}
+------------------------------------
+  App name : Iot Terminal Block <br>
+  Package name: com.oringmet.wm  <br>
+  Version name: 2.5.7 A6  <br>
+  Version code: 8 
 
-* Test environment
-  > 
-  Test app :<br> 
-    &nbsp;&nbsp;&nbsp; Name : Iot Terminal Block <br>
-    &nbsp;&nbsp;&nbsp; Package name: com.oringmet.wm  <br>
-    &nbsp;&nbsp;&nbsp; Version name: 2.5.7 A6  <br>
-    &nbsp;&nbsp;&nbsp; Version code: 8 <br><br>
-  Android :<br>
-    &nbsp;&nbsp;&nbsp; Device : LG K52 <br>
-    &nbsp;&nbsp;&nbsp; OS : Android 10 <br><br>
-  Auto Test Tool :<br>
-    &nbsp;&nbsp;&nbsp; Appium version : v1.21.0 <br>
-    &nbsp;&nbsp;&nbsp; ExtentReport Version : 5.0.0 <br>
-    &nbsp;&nbsp;&nbsp; Automation Name  : UiAutomator2 <br><br>
++ Android   {#androiddevice}
+------------------------------------
+  Device : LG K52 <br>
+  OS : Android 10 <br><br>
++ Auto Test Tool   {#appiumtool}
+------------------------------------
+  Appium version : v1.21.0 <br>
+  ExtentReport Version : 5.0.0 <br>
+  Automation Name  : UiAutomator2 <br><br>
+

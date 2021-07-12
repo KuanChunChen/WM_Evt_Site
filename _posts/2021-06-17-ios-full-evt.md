@@ -1,25 +1,38 @@
 ---
 layout: post
 title: Ios Weidmuller 1.0.0(15) full auto test.
+categories: ios
+
 ---
+* content
+{:toc}
 
+Evt Report  {#seeevt}
+====================================
+ + [Here]({{ 'evtReports/ios/full-test/r3/evt' | absolute_url }}){:target="_blank"}
 
-* See Evt Report : [Here]({{ 'evtReports/ios/full-test/r3/evt' | absolute_url }}){:target="_blank"}
+Main test case {#maintestcase}
+====================================
+ 
++ 1.full ui test {#maintestcase}
+------------------------------------
 
-* Main test case 
-  > 1.full ui test. 
+Test environment {#testenviorment}
+====================================
++ Test app info  {#appinfo}
+------------------------------------
+  App name : Weidumller <br>
+  Bundle ID: com.oring.weidmulleriosapp  <br>
+  Version : 1.0.0(15)  <br>
 
-* Test environment
-  > 
-  Test app<br> 
-    &nbsp;&nbsp;&nbsp; Name : Weidumller <br>
-    &nbsp;&nbsp;&nbsp; Bundle ID: com.oring.weidmulleriosapp  <br>
-    &nbsp;&nbsp;&nbsp; Version : 1.0.0(15) <br><br>
-  IOS :<br>
-    &nbsp;&nbsp;&nbsp; Device : iPhone 12 Pro <br>
-    &nbsp;&nbsp;&nbsp; IOS Version : 14.5 <br><br>
-  Auto Test Tool :<br>
-    &nbsp;&nbsp;&nbsp; Appium version : v1.21.0 <br>
-    &nbsp;&nbsp;&nbsp; ExtentReport Version : 5.0.0 <br>
-    &nbsp;&nbsp;&nbsp; Automation Name  : XCUITest <br><br>
-    
++ IOS   {#iosddevice}
+------------------------------------
+  Device : iPhone 12 Pro <br>
+  IOS Version : 14.5 <br><br>
+
++ Auto Test Tool   {#appiumtool}
+------------------------------------
+  Appium version : v1.21.0 <br>
+  ExtentReport Version : 5.0.0 <br>
+  Automation Name  : XCUITest <br><br>
+

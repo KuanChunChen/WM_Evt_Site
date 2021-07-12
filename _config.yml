@@ -1,11 +1,17 @@
-# Setup
-title:               Weidumller Evt
-tagline:             'Report Site'
-description:         'This website show the past EVT report about weidumller app on Android and Ios devices.'
-url:                 https://kuanchunchen.github.io/WM_Evt_Site/
-baseurl:             ''
-paginate:            5
-permalink:           pretty
+# Site settings
+name: Weidumller Evt Report Site
+
+url: https://kuanchunchen.github.io/WM_Evt_Site/
+
+baseurl: ''
+
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
 
 # About/contact
 author:
@@ -13,10 +19,13 @@ author:
   url:               https://www.linkedin.com/in/kuan-chun-chen-3b703216b/
   email:             championsheeps@gmail.com
 
-# Gems
-plugins:
-  - jekyll-paginate
-
 # Custom vars
-version:             1.1.0
+version:             1.2.0
 google_analytics_id: G-1MP4FL6EY3
+
+# Custom description
+
+description: Both android and ios evt report can see here !
+meta_description: evt;android;ios;kotlin;wiilyChen;eleg.aces.kc;
+motto: Weidumller Evt Report Site
+banner: Get the evt report which you would like to see !
