@@ -9,7 +9,7 @@ categories: android
 
 Evt Report  {#seeevt}
 ====================================
- + [Here]({{ 'evtReports/android/full-test/r5/evt'|absolute_url}}){:target="_blank"}
+ + [Here]({{ 'evtReports/android/full-test/r5/evt'| prepend: site.baseurl}}){:target="_blank"}
 
 Main test case {#maintestcase}
 ====================================
