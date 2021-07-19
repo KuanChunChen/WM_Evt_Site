@@ -1,0 +1,2261 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Weidmuller EVT 2.6.0 a1 Report R6</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@83e4e8776725a49f9e738b19d1e718e7404d6c19/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">七月 18, 2021 11:33:14 下午</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="warning" href="#"><span>Warning</span><span class="status warning"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Start</p>
+            <p class="text-sm"><span>23:33:14 下午</span> / <span>0.881 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
+<h5 class="test-status text-pass">Start</h5>
+<span class='badge badge-success'>07.18.2021 23:33:14</span>
+<span class='badge badge-danger'>07.18.2021 23:33:15</span>
+<span class='badge badge-default'>0.881 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:14</td>
+        <td>
+          This appium test start with following setting , please refer it.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:15</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"appName":"Iot Terminal Block","appVersion":"2.6.0 A1","appActivity":"com.oring.LoginActivity","appPackage":"com.oringnet.wm","autoAcceptAlerts":"true","autoGrantPermissions":"true","automationName":"UiAutomator2","platformName":"android","deviceName":"LMK520GYPZCYCAEEM7","newCommandTimeout":"6000","platformVersion":"10","deviceApiLevel":"29","deviceManufacturer":"LGE","deviceModel":"LM-K520","deviceScreenDensity":"280","deviceScreenSize":"720x1600","deviceUDID":"LMK520GYPZCYCAEEM7","pixelRatio":"1.75","platform":"LINUX"}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="2">Open start page from appium</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:15</td>
+        <td>
+          Start page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/startPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/startPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:15</td>
+        <td>
+          Click button with no crash.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:33:15</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Device</p>
+            <p class="text-sm"><span>23:33:15 下午</span> / <span>6.446 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=3</span></div>
+<h5 class="test-status text-pass">Device</h5>
+<span class='badge badge-success'>07.18.2021 23:33:15</span>
+<span class='badge badge-danger'>07.18.2021 23:33:22</span>
+<span class='badge badge-default'>6.446 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:17</td>
+        <td>
+          device list page
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/DeviceList.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/DeviceList.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:21</td>
+        <td>
+           <div class='json-tree' id='code-block-json-1'></div>
+ <script>
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create(Current ID ：WM_,
+Current MAC ：18:04:ED:6E:5F:53,
+Current RSSI ：-45 dbm
+); 
+  }
+  jsonTreeCreate1();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:21</td>
+        <td>
+          Current ID ：WM_
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:22</td>
+        <td>
+          Current MAC ：18:04:ED:6E:5F:53
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:22</td>
+        <td>
+          Current RSSI ：-45 dbm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:33:22</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar warning-bg">
+            <i class="fa fa-warning text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">SetNewDevice</p>
+            <p class="text-sm"><span>23:33:22 下午</span> / <span>10.114 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
+<h5 class="test-status text-warning">SetNewDevice</h5>
+<span class='badge badge-success'>07.18.2021 23:33:22</span>
+<span class='badge badge-danger'>07.18.2021 23:33:32</span>
+<span class='badge badge-default'>10.114 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="5">Open start page from appium</div>
+            <div class="status-avatar float-right warning-bg">
+               <i class="fa fa-warning text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>下午 11:33:32</td>
+        <td>
+          <span class='badge white-text red'>Set new device can not test , cause device can not reset.</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Login</p>
+            <p class="text-sm"><span>23:33:32 下午</span> / <span>3.07 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=6</span></div>
+<h5 class="test-status text-pass">Login</h5>
+<span class='badge badge-success'>07.18.2021 23:33:32</span>
+<span class='badge badge-danger'>07.18.2021 23:33:35</span>
+<span class='badge badge-default'>3.07 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:32</td>
+        <td>
+          Login device page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/LoginPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/LoginPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:34</td>
+        <td>
+          Auto input wrong password test.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInputWrong.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInputWrong.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:35</td>
+        <td>
+          Auto input password.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInput.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInput.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:33:35</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Navigation bar</p>
+            <p class="text-sm"><span>23:33:35 下午</span> / <span>5.691 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=7</span></div>
+<h5 class="test-status text-pass">Navigation bar</h5>
+<span class='badge badge-success'>07.18.2021 23:33:35</span>
+<span class='badge badge-danger'>07.18.2021 23:33:41</span>
+<span class='badge badge-default'>5.691 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:40</td>
+        <td>
+          After click navigation bar button.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/bar.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/bar.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:41</td>
+        <td>
+          There are several sub title below ：
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:41</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create([{"SubTitle":"Dashboard"},{"SubTitle":"I/O"},{"SubTitle":"Gateway"},{"SubTitle":"Device Info"},{"SubTitle":"Network Status"},{"SubTitle":"Cloud Settings"},{"SubTitle":"Remote Control"}]); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:33:41</td>
+        <td>
+          open / close navigation bar success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Dashboard</p>
+            <p class="text-sm"><span>23:33:41 下午</span> / <span>11.101 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=8</span></div>
+<h5 class="test-status text-pass">Dashboard</h5>
+<span class='badge badge-success'>07.18.2021 23:33:41</span>
+<span class='badge badge-danger'>07.18.2021 23:33:52</span>
+<span class='badge badge-default'>11.101 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:42</td>
+        <td>
+          Terminal Block main page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/terminalMainPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/terminalMainPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:50</td>
+        <td>
+          Scroll to Relay text.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayText.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayText.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:52</td>
+        <td>
+          The data on this page is ：
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:52</td>
+        <td>
+           <div class='json-tree' id='code-block-json-3'></div>
+ <script>
+  function jsonTreeCreate3() { 
+   document.getElementById('code-block-json-3').innerHTML = JSONTree.create([{"Subject":"DI","member":[{"Name":"DI0","Events":"0"},{"Name":"DI1","Events":"0"},{"Name":"DI2","Events":"0"},{"Name":"DI3","Events":"0"}]},{"Subject":"DO","member":[{"Name":"DO0"},{"Name":"DO1"},{"Name":"DO2"},{"Name":"DO3"}]},{"Subject":"Relay","member":[{"Name":"Relay0"},{"Name":"Relay1"}]},{"Subject":"AI","member":[{"Name":"AI0","Status":"-0.019 V"},{"Name":"AI1","Status":"0.1 mA"}]},{"Subject":"RTD/TC","member":[{"Name":"R0","Status":"587.9 Ω"},{"Name":"R2","Status":"587.9 Ω"}]}]); 
+  }
+  jsonTreeCreate3();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:33:52</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="9">Dashboard page log :</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:33:52</td>
+        <td>
+          <ol><li> Dashboard: [Req]&lt;Read DI Status&gt; 01020000000479c9</li><li> Dashboard: [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> Dashboard: [Req]&lt;Read DO Status&gt; 0101000000043dc9</li><li> Dashboard: [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> Dashboard: [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> Dashboard: [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> Dashboard: [Rsp]&lt;Read AI 0 Status&gt; 010404bc9cfe9f1e32</li><li> Dashboard: [Req]&lt;Read AI 1 Status&gt; 01040000000271cb</li><li> Dashboard: [Req]&lt;Read AI 1 Status&gt; 010400020002d00b</li><li> Dashboard: [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc161ab9bc</li><li> Dashboard: [Req]&lt;Read AI 2 Status&gt; 010400040002300a</li><li> Dashboard: [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI 4 Status&gt; 01040006000291ca</li><li> Dashboard: [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> Dashboard: [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI Type&gt; 0104000A000251c9</li><li> Dashboard: [Req]&lt;Read AI Type&gt; 010304000006c4f8</li><li> Dashboard: [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> Dashboard: [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> Dashboard: [Req]&lt;Read RTD 2 mode&gt; 010303050004544c</li><li> Dashboard: [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> Dashboard: [Req]&lt;Read DO Status&gt; 01020000000479c9</li><li> Dashboard: [Req]&lt;Read DO Status&gt; 0101000000043dc9</li><li> Dashboard: [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> Dashboard: [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> Dashboard: [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> Dashboard: [Req]&lt;Read AI 0 Status&gt; 01040000000271cb</li><li> Dashboard: [Rsp]&lt;Read AI 0 Status&gt; 010404bc9e213fe7ba</li><li> Dashboard: [Req]&lt;Read AI 1 Status&gt; 010400020002d00b</li><li> Dashboard: [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc1341fb17</li><li> Dashboard: [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Req]&lt;Read AI 3 Status&gt; 010400040002300a</li><li> Dashboard: [Req]&lt;Read AI 3 Status&gt; 01040006000291ca</li><li> Dashboard: [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> Dashboard: [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Req]&lt;Read AI 5 Status&gt; 0104000A000251c9</li><li> Dashboard: [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI Type&gt; 010304000006c4f8</li><li> Dashboard: [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> Dashboard: [Req]&lt;Read RTD 2 mode&gt; 010303050004544c</li><li> Dashboard: [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> Dashboard: [Req]&lt;Read DI Status&gt; 01020000000479c9</li><li> Dashboard: [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> Dashboard: [Req]&lt;Read DO Status&gt; 0101000000043dc9</li><li> Dashboard: [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> Dashboard: [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> Dashboard: [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> Dashboard: [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> Dashboard: [Req]&lt;Read AI 0 Status&gt; 01040000000271cb</li><li> Dashboard: [Rsp]&lt;Read AI 0 Status&gt; 010404bc9f43df9e92</li><li> Dashboard: [Req]&lt;Read AI 1 Status&gt; 010400020002d00b</li><li> Dashboard: [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc0e843214</li><li> Dashboard: [Req]&lt;Read AI 2 Status&gt; 010400040002300a</li><li> Dashboard: [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Req]&lt;Read AI 3 Status&gt; 01040006000291ca</li><li> Dashboard: [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> Dashboard: [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> Dashboard: [Req]&lt;Read AI 5 Status&gt; 0104000A000251c9</li><li> Dashboard: [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> Dashboard: [Req]&lt;Read AI Type&gt; 010304000006c4f8</li><li> Dashboard: [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> Dashboard: [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> Dashboard: [Req]&lt;Read RTD 2 mode&gt; 010303050004544c</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">I/O</p>
+            <p class="text-sm"><span>23:33:57 下午</span> / <span>17.88 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=10</span></div>
+<h5 class="test-status text-pass">I/O</h5>
+<span class='badge badge-success'>07.18.2021 23:33:57</span>
+<span class='badge badge-danger'>07.18.2021 23:34:15</span>
+<span class='badge badge-default'>17.88 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:00</td>
+        <td>
+          I/O page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/dashboardIO.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/dashboardIO.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:08</td>
+        <td>
+          Scroll to Relay text.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayText.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayText.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:10</td>
+        <td>
+          The data on this page is ：
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:10</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create([{"Subject":"DI","member":[{"Name":"DI0","Events":"0"},{"Name":"DI1","Events":"0"},{"Name":"DI2","Events":"0"},{"Name":"DI3","Events":"0"}]},{"Subject":"DO","member":[{"Name":"DO0"},{"Name":"DO1"},{"Name":"DO2"},{"Name":"DO3"}]},{"Subject":"Relay","member":[{"Name":"Relay0"},{"Name":"Relay1"}]},{"Subject":"AI","member":[{"Name":"AI0","Status":"-0.019 V"},{"Name":"AI1","Status":"0.1 mA"}]},{"Subject":"RTD/TC","member":[{"Name":"R0","Status":"587.9 Ω"},{"Name":"R2","Status":"587.9 Ω"},{"Name":"R1","Status":"0.0 "},{"Name":"R3","Status":"0.0 "}]}]); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:34:15</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="11">I/O log:</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:15</td>
+        <td>
+          <ol><li> I/O     : [Req]&lt;Read DI Status&gt; 01020000000479c9</li><li> I/O     : [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> I/O     : [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read RELAY Status&gt; 0101000000043dc9</li><li> I/O     : [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> I/O     : [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> I/O     : [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> I/O     : [Req]&lt;Read AI 0 Status&gt; 01040000000271cb</li><li> I/O     : [Rsp]&lt;Read AI 0 Status&gt; 010404bc9d6f1f23c2</li><li> I/O     : [Req]&lt;Read AI 1 Status&gt; 010400020002d00b</li><li> I/O     : [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc0d91f32b</li><li> I/O     : [Req]&lt;Read AI 2 Status&gt; 010400040002300a</li><li> I/O     : [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI 4 Status&gt; 01040006000291ca</li><li> I/O     : [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> I/O     : [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI Type&gt; 0104000A000251c9</li><li> I/O     : [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> I/O     : [Req]&lt;Read RTD 2 mode&gt; 010304000006c4f8</li><li> I/O     : [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> I/O     : [Req]&lt;Read Mode&gt; 010303050004544c</li><li> I/O     : [Rsp]&lt;Read Mode&gt; 010402610090a0</li><li> I/O     : [Req]&lt;Read Mode&gt; 010403f90001e1bf</li><li> I/O     : [Req]&lt;Read DI Status&gt; 01020000000479c9</li><li> I/O     : [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> I/O     : [Req]&lt;Read DO Status&gt; 0101000000043dc9</li><li> I/O     : [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> I/O     : [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> I/O     : [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> I/O     : [Req]&lt;Read AI 0 Status&gt; 01040000000271cb</li><li> I/O     : [Rsp]&lt;Read AI 0 Status&gt; 010404bc9dba1f7d52</li><li> I/O     : [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc0bac315a</li><li> I/O     : [Req]&lt;Read AI 2 Status&gt; 010400020002d00b</li><li> I/O     : [Req]&lt;Read AI 2 Status&gt; 010400040002300a</li><li> I/O     : [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Req]&lt;Read AI 3 Status&gt; 01040006000291ca</li><li> I/O     : [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> I/O     : [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Req]&lt;Read AI 5 Status&gt; 0104000A000251c9</li><li> I/O     : [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI Type&gt; 010304000006c4f8</li><li> I/O     : [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> I/O     : [Req]&lt;Read RTD 2 mode&gt; 010303050004544c</li><li> I/O     : [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> I/O     : [Req]&lt;Read Mode&gt; 010403f90001e1bf</li><li> I/O     : [Rsp]&lt;Read Mode&gt; 010402610090a0</li><li> I/O     : [Req]&lt;Read DI Status&gt; 01020000000479c9</li><li> I/O     : [Rsp]&lt;Read DI Status&gt; 01020100a188</li><li> I/O     : [Req]&lt;Read DO Status&gt; 0101000000043dc9</li><li> I/O     : [Rsp]&lt;Read DO Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read RELAY Status&gt; 010100040002fc0a</li><li> I/O     : [Rsp]&lt;Read RELAY Status&gt; 010101005188</li><li> I/O     : [Req]&lt;Read DI COUNTER&gt; 010404310004a136</li><li> I/O     : [Rsp]&lt;Read DI COUNTER&gt; 0104080000000000000000240d</li><li> I/O     : [Rsp]&lt;Read AI 0 Status&gt; 010404bc9eec5fb302</li><li> I/O     : [Req]&lt;Read AI 1 Status&gt; 01040000000271cb</li><li> I/O     : [Req]&lt;Read AI 1 Status&gt; 010400020002d00b</li><li> I/O     : [Rsp]&lt;Read AI 1 Status&gt; 0104043dcc0abab104</li><li> I/O     : [Req]&lt;Read AI 2 Status&gt; 010400040002300a</li><li> I/O     : [Rsp]&lt;Read AI 2 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Req]&lt;Read AI 3 Status&gt; 01040006000291ca</li><li> I/O     : [Rsp]&lt;Read AI 3 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI 4 Status&gt; 010400080002f009</li><li> I/O     : [Rsp]&lt;Read AI 4 Status&gt; 0104044412f99a8d4a</li><li> I/O     : [Req]&lt;Read AI 5 Status&gt; 0104000A000251c9</li><li> I/O     : [Rsp]&lt;Read AI 5 Status&gt; 01040400000000fb84</li><li> I/O     : [Req]&lt;Read AI Type&gt; 010304000006c4f8</li><li> I/O     : [Rsp]&lt;Read AI Type&gt; 01030c000501020215031302150313dbb0</li><li> I/O     : [Req]&lt;Read RTD 2 mode&gt; 010303050004544c</li><li> I/O     : [Rsp]&lt;Read RTD 2 mode&gt; 0103080003000200000000df17</li><li> I/O     : [Req]&lt;Read Mode&gt; 010403f90001e1bf</li><li> I/O     : [Rsp]&lt;Read Mode&gt; 010402610090a0</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="12">MCU_MODE:</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:15</td>
+        <td>
+          <ol><li> MCU_MODE: Status = 24832</li><li> MCU_MODE: Status = 24832</li><li> MCU_MODE: Status = 24832</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">ForceMode</p>
+            <p class="text-sm"><span>23:34:15 下午</span> / <span>17.434 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=13</span></div>
+<h5 class="test-status text-pass">ForceMode</h5>
+<span class='badge badge-success'>07.18.2021 23:34:15</span>
+<span class='badge badge-danger'>07.18.2021 23:34:32</span>
+<span class='badge badge-default'>17.434 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:16</td>
+        <td>
+          Force mode page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/forceModePage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/forceModePage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:26</td>
+        <td>
+          After Click DO 0~2
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/clickDO.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/clickDO.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:32</td>
+        <td>
+          Scroll to Relay text.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayTextForce.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/relayTextForce.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:34:32</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="14">Force mode log:</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:32</td>
+        <td>
+          <ol><li> ForcingPage: [Rsp]&lt;READ DI STATUS&gt; 01020100a188</li><li> ForcingPage: [Req]&lt;READ DO STATUS&gt; 01020000000479c9</li><li> ForcingPage: [Req]&lt;READ DO STATUS&gt; 0101000000043dc9</li><li> ForcingPage: [Rsp]&lt;READ DO STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 010100040002fc0a</li><li> ForcingPage: [Rsp]&lt;READ RELAY STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040000000271cb</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 010404bc9de2bf46ea</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104043dcc1526b95d</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400020002d00b</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400040002300a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040006000291ca</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400080002f009</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 0104000A000251c9</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI TYPE&gt; 010304000006c4f8</li><li> ForcingPage: [Rsp]&lt;READ AI TYPE&gt; 01030c000501020215031302150313dbb0</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010303f90001547f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 0103020000b844</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 018502c351</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010503f9FF005c4f</li><li> ForcingPage: [Rsp]&lt;WRITE DO_0 STATUS&gt; 01050000ff008c3a</li><li> ForcingPage: [Req]&lt;READ DI STATUS&gt; 01050000FF008c3a</li><li> ForcingPage: [Rsp]&lt;READ DI STATUS&gt; 01020100a188</li><li> ForcingPage: [Req]&lt;READ DO STATUS&gt; 01020000000479c9</li><li> ForcingPage: [Rsp]&lt;READ DO STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 0101000000043dc9</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 010100040002fc0a</li><li> ForcingPage: [Rsp]&lt;READ RELAY STATUS&gt; 010101005188</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 010404bc9e213fe7ba</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040000000271cb</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400020002d00b</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104043dcc0e843214</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400040002300a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040006000291ca</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400080002f009</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI TYPE&gt; 0104000A000251c9</li><li> ForcingPage: [Rsp]&lt;READ AI TYPE&gt; 01030c000501020215031302150313dbb0</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010304000006c4f8</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010303f90001547f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 0103020000b844</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010503f9FF005c4f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 018502c351</li><li> ForcingPage: [Rsp]&lt;WRITE DO_1 STATUS&gt; 01050001ff00ddfa</li><li> ForcingPage: [Req]&lt;READ DI STATUS&gt; 01050001FF00ddfa</li><li> ForcingPage: [Req]&lt;READ DI STATUS&gt; 01020000000479c9</li><li> ForcingPage: [Rsp]&lt;READ DI STATUS&gt; 01020100a188</li><li> ForcingPage: [Rsp]&lt;READ DO STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 0101000000043dc9</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 010100040002fc0a</li><li> ForcingPage: [Rsp]&lt;READ RELAY STATUS&gt; 010101005188</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 010404bc9e119ff3c2</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040000000271cb</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400020002d00b</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104043dcc115c3a7e</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400040002300a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040006000291ca</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400080002f009</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI TYPE&gt; 0104000A000251c9</li><li> ForcingPage: [Rsp]&lt;READ AI TYPE&gt; 01030c000501020215031302150313dbb0</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010304000006c4f8</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 0103020000b844</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010303f90001547f</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010503f9FF005c4f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 018502c351</li><li> ForcingPage: [Req]&lt;WRITE DO_2 STATUS&gt; 01050002FF002dfa</li><li> ForcingPage: [Rsp]&lt;WRITE DO_2 STATUS&gt; 01050002ff002dfa</li><li> ForcingPage: [Req]&lt;READ DI STATUS&gt; 01020000000479c9</li><li> ForcingPage: [Rsp]&lt;READ DI STATUS&gt; 01020100a188</li><li> ForcingPage: [Rsp]&lt;READ DO STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 0101000000043dc9</li><li> ForcingPage: [Rsp]&lt;READ RELAY STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010100040002fc0a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 010404bc9daa7f70ba</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040000000271cb</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400020002d00b</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104043dcc0e843214</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400040002300a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040006000291ca</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400080002f009</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI TYPE&gt; 0104000A000251c9</li><li> ForcingPage: [Rsp]&lt;READ AI TYPE&gt; 01030c000501020215031302150313dbb0</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010304000006c4f8</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 0103020000b844</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010303f90001547f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 018502c351</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010503f9FF005c4f</li><li> ForcingPage: [Req]&lt;READ DI STATUS&gt; 01020000000479c9</li><li> ForcingPage: [Rsp]&lt;READ DI STATUS&gt; 01020100a188</li><li> ForcingPage: [Rsp]&lt;READ DO STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 0101000000043dc9</li><li> ForcingPage: [Req]&lt;READ RELAY STATUS&gt; 010100040002fc0a</li><li> ForcingPage: [Rsp]&lt;READ RELAY STATUS&gt; 010101005188</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040000000271cb</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 010404bc9e2dbfe31a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400020002d00b</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104043dcc0c9f737f</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400040002300a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 01040006000291ca</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 0104044412f99a8d4a</li><li> ForcingPage: [Req]&lt;READ AI STATUS&gt; 010400080002f009</li><li> ForcingPage: [Rsp]&lt;READ AI STATUS&gt; 01040400000000fb84</li><li> ForcingPage: [Req]&lt;READ AI TYPE&gt; 0104000A000251c9</li><li> ForcingPage: [Rsp]&lt;READ AI TYPE&gt; 01030c000501020215031302150313dbb0</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010304000006c4f8</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 0103020000b844</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010303f90001547f</li><li> ForcingPage: [Req]&lt;READ FORCE STATUS&gt; 010503f9FF005c4f</li><li> ForcingPage: [Rsp]&lt;READ FORCE STATUS&gt; 018502c351</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">DI</p>
+            <p class="text-sm"><span>23:34:38 下午</span> / <span>11.476 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=15</span></div>
+<h5 class="test-status text-pass">DI</h5>
+<span class='badge badge-success'>07.18.2021 23:34:38</span>
+<span class='badge badge-danger'>07.18.2021 23:34:50</span>
+<span class='badge badge-default'>11.476 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="16">Start DI setting and click enable button</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:41</td>
+        <td>
+          DI config page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/diConfigPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/diConfigPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:43</td>
+        <td>
+          After click enable.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/diClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/diClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:44</td>
+        <td>
+          After click trigger button.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/clickTrigger.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/clickTrigger.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:48</td>
+        <td>
+          <span class='badge white-text blue'>After click the apply button and get log message.</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:50</td>
+        <td>
+          <ol><li> DiPage  : [Req]&lt;READ CHANNEL ENABLE&gt; 01030A87000137fb</li><li> DiPage  : [Rsp]&lt;READ CHANNEL ENABLE&gt; 0103020000b844</li><li> DiPage  : [Req]&lt;READ FILTER&gt; 01030A620001260c</li><li> DiPage  : [Rsp]&lt;READ FILTER&gt; 0103020000b844</li><li> DiPage  : [Req]&lt;READ Trigger ENABLE&gt; 01030A860001663b</li><li> DiPage  : [Rsp]&lt;READ Trigger ENABLE&gt; 0103020000b844</li><li> DiPage  : [Req]&lt;READ Trigger Index&gt; 01030A7600016608</li><li> DiPage  : [Rsp]&lt;READ Trigger Index&gt; 0103020000b844</li><li> DiPage  : [Req]&lt;WRITE CHANNEL ENABLE&gt; 01100A870001020001d3e7</li><li> DiPage  : [Rsp]&lt;WRITE CHANNEL ENABLE&gt; 01100a870001b238</li><li> DiPage  : [Req]&lt;WRITE FILTER&gt; 01100A6200010200000412</li><li> DiPage  : [Rsp]&lt;WRITE FILTER&gt; 01100a620001a3cf</li><li> DiPage  : [Req]&lt;WRITE Trigger ENABLE&gt; 01100A86000102f00057f6</li><li> DiPage  : [Rsp]&lt;WRITE Trigger ENABLE&gt; 01100a860001e3f8</li><li> DiPage  : [Req]&lt;WRITE Trigger Index&gt; 01100A7600010200000706</li><li> DiPage  : [Rsp]&lt;WRITE Trigger Index&gt; 01100a760001e3cb</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:34:50</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">DO</p>
+            <p class="text-sm"><span>23:34:50 下午</span> / <span>5.873 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=17</span></div>
+<h5 class="test-status text-pass">DO</h5>
+<span class='badge badge-success'>07.18.2021 23:34:50</span>
+<span class='badge badge-danger'>07.18.2021 23:34:55</span>
+<span class='badge badge-default'>5.873 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="18">Start DO setting and click enable button</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:51</td>
+        <td>
+          DO config page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/doConfigPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/doConfigPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:54</td>
+        <td>
+          After click enable.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/doClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/doClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:34:55</td>
+        <td>
+          <ol><li> DoPage  : [Req]&lt;READ CHANNEL ENABLE&gt; 01030A310001d61d</li><li> DoPage  : [Rsp]&lt;READ CHANNEL ENABLE&gt; 0103020000b844</li><li> DoPage  : [Req]&lt;READ FILTER&gt; 01030A8C00014639</li><li> DoPage  : [Rsp]&lt;READ FILTER&gt; 0103020000b844</li><li> DoPage  : [Req]&lt;READ SAFE VALUE&gt; 01030A35000197dc</li><li> DoPage  : [Rsp]&lt;READ SAFE VALUE&gt; 0103020000b844</li><li> DoPage  : [Req]&lt;WRITE CHANNEL ENABLE&gt; 01100A310001020001c9b1</li><li> DoPage  : [Rsp]&lt;WRITE CHANNEL ENABLE&gt; 01100a31000153de</li><li> DoPage  : [Req]&lt;WRITE FILTER&gt; 01100A8C0001020000135c</li><li> DoPage  : [Rsp]&lt;WRITE FILTER&gt; 01100a8c0001c3fa</li><li> DoPage  : [Req]&lt;WRITE SAFE VALUE&gt; 01100A35000102000009f5</li><li> DoPage  : [Rsp]&lt;WRITE SAFE VALUE&gt; 01100a350001121f</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:34:55</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">AI</p>
+            <p class="text-sm"><span>23:34:55 下午</span> / <span>18.865 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=19</span></div>
+<h5 class="test-status text-pass">AI</h5>
+<span class='badge badge-success'>07.18.2021 23:34:55</span>
+<span class='badge badge-danger'>07.18.2021 23:35:14</span>
+<span class='badge badge-default'>18.865 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="20">Start DI setting and click enable button</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:08</td>
+        <td>
+          AI config page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/aiPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/aiPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:09</td>
+        <td>
+          After Click Enable.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/aiClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/aiClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:12</td>
+        <td>
+          After click high and low alarm.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/highLowClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/highLowClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:14</td>
+        <td>
+          <ol><li> AiPage  : [Rsp]&lt;READ CHANNEL ENABLE&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ SAMPLING&gt; 01030410000184ff</li><li> AiPage  : [Req]&lt;READ SAMPLING&gt; 010304110001d53f</li><li> AiPage  : [Rsp]&lt;READ SAMPLING&gt; 0103020000b844</li><li> AiPage  : [Rsp]&lt;READ INPUT TYPE&gt; 01030200057847</li><li> AiPage  : [Req]&lt;READ HIGH ALARM ENABLE&gt; 010304000001853a</li><li> AiPage  : [Req]&lt;READ HIGH ALARM ENABLE&gt; 0103046300017524</li><li> AiPage  : [Rsp]&lt;READ HIGH ALARM ENABLE&gt; 0103020000b844</li><li> AiPage  : [Rsp]&lt;READ HIGH ALARM&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ LOW ALARM ENABLE&gt; 010304640001c4e5</li><li> AiPage  : [Rsp]&lt;READ LOW ALARM ENABLE&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ LOW ALARM&gt; 01030485000194d3</li><li> AiPage  : [Req]&lt;READ LOW ALARM&gt; 01030486000164d3</li><li> AiPage  : [Rsp]&lt;READ LOW ALARM&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ THRESHOLD&gt; 010304A7000134d9</li><li> AiPage  : [Rsp]&lt;READ THRESHOLD&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ XY%_THRESHOLD&gt; 01030CE40001c76d</li><li> AiPage  : [Rsp]&lt;READ XY%_THRESHOLD&gt; 0103020000b844</li><li> AiPage  : [Req]&lt;READ XY% ENABLE&gt; 01030C80000186b2</li><li> AiPage  : [Rsp]&lt;READ XY% ENABLE&gt; 018302c0f1010302561c862d</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:35:14</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">RTD</p>
+            <p class="text-sm"><span>23:35:14 下午</span> / <span>24.054 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=21</span></div>
+<h5 class="test-status text-pass">RTD</h5>
+<span class='badge badge-success'>07.18.2021 23:35:14</span>
+<span class='badge badge-danger'>07.18.2021 23:35:38</span>
+<span class='badge badge-default'>24.054 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="22">Start DI setting and click enable button</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:27</td>
+        <td>
+          RTD config page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:28</td>
+        <td>
+          After click enable.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:36</td>
+        <td>
+          After click high and low alarm.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/alarmRTDClick.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/alarmRTDClick.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:38</td>
+        <td>
+          <ol><li> RTDPage : [Req]&lt;READ CHANNEL ENABLE&gt; 01030410000184ff</li><li> RTDPage : [Rsp]&lt;READ CHANNEL ENABLE&gt; 01030200017984</li><li> RTDPage : [Rsp]&lt;READ INPUT TYPE&gt; 010302021578eb</li><li> RTDPage : [Req]&lt;READ HIGH ALARM ENABLE&gt; 01030402000124fa</li><li> RTDPage : [Rsp]&lt;READ HIGH ALARM ENABLE&gt; 0103020000b844</li><li> RTDPage : [Req]&lt;READ HIGH ALARM&gt; 0103046300017524</li><li> RTDPage : [Req]&lt;READ HIGH ALARM&gt; 0103046600016525</li><li> RTDPage : [Rsp]&lt;READ HIGH ALARM&gt; 0103020000b844</li><li> RTDPage : [Rsp]&lt;READ LOW ALARM ENABLE&gt; 0103020000b844</li><li> RTDPage : [Req]&lt;READ LOW ALARM&gt; 01030485000194d3</li><li> RTDPage : [Rsp]&lt;READ LOW ALARM&gt; 0103020000b844</li><li> RTDPage : [Req]&lt;READ THRESHOLD&gt; 0103048800010510</li><li> RTDPage : [Req]&lt;READ THRESHOLD&gt; 010304A90001551a</li><li> RTDPage : [Rsp]&lt;READ THRESHOLD&gt; 010302000bf983</li><li> RTDPage : [Req]&lt;READ XY%_THRESHOLD&gt; 01030CE6000166ad</li><li> RTDPage : [Rsp]&lt;READ XY%_THRESHOLD&gt; 010302000a3843</li><li> RTDPage : [Req]&lt;READ XY% ENABLE&gt; 01030C80000186b2</li><li> RTDPage : [Rsp]&lt;READ XY% ENABLE&gt; 018302c0f1010302561c862d</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:35:38</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">RTD_XY</p>
+            <p class="text-sm"><span>23:35:38 下午</span> / <span>43.79 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=23</span></div>
+<h5 class="test-status text-pass">RTD_XY</h5>
+<span class='badge badge-success'>07.18.2021 23:35:38</span>
+<span class='badge badge-danger'>07.18.2021 23:36:22</span>
+<span class='badge badge-default'>43.79 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="24">Start DI setting and click enable button</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:49</td>
+        <td>
+          RTD config page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:50</td>
+        <td>
+          After click enable.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdClickEnable.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtdClickEnable.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:56</td>
+        <td>
+          Input error value test 01 :
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase1.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase1.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:35:57</td>
+        <td>
+          After test 01:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase1.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase1.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:02</td>
+        <td>
+          Input error value test 02 :
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase2.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase2.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:03</td>
+        <td>
+          After test 02:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase2.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase2.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:08</td>
+        <td>
+          Input error value test 03:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase3.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase3.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:10</td>
+        <td>
+          After test 03:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase3.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase3.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:15</td>
+        <td>
+          Input error value test 04:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase4.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuErrorCase4.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:16</td>
+        <td>
+          After test 04:
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase4.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterRtuErrorCase4.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:21</td>
+        <td>
+          Input true value test :
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuTrueCase.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/rtuTrueCase.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:36:22</td>
+        <td>
+          pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Gateway</p>
+            <p class="text-sm"><span>23:36:22 下午</span> / <span>42.971 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=25</span></div>
+<h5 class="test-status text-pass">Gateway</h5>
+<span class='badge badge-success'>07.18.2021 23:36:22</span>
+<span class='badge badge-danger'>07.18.2021 23:37:05</span>
+<span class='badge badge-default'>42.971 secs</span>
+</div>
+</div>
+</div>  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="26">Start Gateway test</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:29</td>
+        <td>
+          Gateway page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/gateWayPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/gateWayPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:36:29</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="27">Start slave request toggle test.</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:30</td>
+        <td>
+          Slave Request Toggle page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/slaveRequestToggle.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/slaveRequestToggle.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:36</td>
+        <td>
+          After click toggle button.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterClickToggle.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/afterClickToggle.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:44</td>
+        <td>
+          After click toggle again.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ClickAgainToggle.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ClickAgainToggle.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:46</td>
+        <td>
+          <ol><li> Gateway : [Req]&lt;READ ENABLE LOW&gt; 00030A4800010615</li><li> Gateway : [Rsp]&lt;READ ENABLE LOW&gt; 0003020007c446</li><li> Gateway : [Req]&lt;READ ENABLE HIGH&gt; 00030A49000157d5</li><li> Gateway : [Rsp]&lt;READ ENABLE HIGH&gt; 00030200008584</li><li> Gateway : [Req]&lt;WRITE ENABLE LOW&gt; 00100A4800010200F80fca</li><li> Gateway : [Rsp]&lt;WRITE ENABLE LOW&gt; 00100a48000183d6</li><li> Gateway : [Rsp]&lt;WRITE ENABLE HIGH&gt; 00100a490001d216</li><li> Gateway : [Req]&lt;WRITE ENABLE HIGH&gt; 00100A4900010200000f99</li><li> Gateway : [Rsp]&lt;READ ENABLE LOW&gt; 00030200f88406</li><li> Gateway : [Req]&lt;READ ENABLE HIGH&gt; 00030A4800010615</li><li> Gateway : [Rsp]&lt;READ ENABLE HIGH&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ENABLE HIGH&gt; 00030A49000157d5</li><li> Gateway : [Req]&lt;WRITE ENABLE LOW&gt; 00100A4800010200074f8a</li><li> Gateway : [Rsp]&lt;WRITE ENABLE LOW&gt; 00100a48000183d6</li><li> Gateway : [Rsp]&lt;WRITE ENABLE HIGH&gt; 00100a490001d216</li><li> Gateway : [Req]&lt;WRITE ENABLE HIGH&gt; 00100A4900010200000f99</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:36:46</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="28">Start Gateway - Modbus RTU test.</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:48</td>
+        <td>
+          Modbus RTU Page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusRTU.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusRTU.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:49</td>
+        <td>
+          <ol><li> Gateway : [Req]&lt;READ BAUD_RATE&gt; 000303200002c454</li><li> Gateway : [Rsp]&lt;READ BAUD_RATE&gt; 00030400000000eaf3</li><li> Gateway : [Req]&lt;READ DATA_BITS&gt; 0003033000018590</li><li> Gateway : [Rsp]&lt;READ DATA_BITS&gt; 0003020007c446</li><li> Gateway : [Req]&lt;READ PARITY&gt; 0003033800010452</li><li> Gateway : [Rsp]&lt;READ PARITY&gt; 00030200020445</li><li> Gateway : [Rsp]&lt;READ STOP_BITS&gt; 00030200020445</li><li> Gateway : [Req]&lt;READ TIMEOUT&gt; 000303400001844b</li><li> Gateway : [Req]&lt;READ TIMEOUT&gt; 0003034800010589</li><li> Gateway : [Rsp]&lt;READ TIMEOUT&gt; 00030200c88412</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:36:49</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="29">Start Gateway - Modbus Slave test.</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+              <div class="status-avatar float-right"><i class="fa fa-paperclip"></i></div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:36:58</td>
+        <td>
+          Modbus Slave Page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusSlave.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusSlave.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:03</td>
+        <td>
+          Modbus Slave detail page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusSlaveDetail.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/ModbusSlaveDetail.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:05</td>
+        <td>
+          <ol><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D000018556</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 000308340001c675</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089800010654</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000308FC0001478b</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096000018659</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000309C40001c7ba</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D10001d496</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030835000197b5</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089900015794</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 000308FD0001164b</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000309610001d799</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C50001967a</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D200012496</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030836000167b5</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089A0001a794</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000308FE0001e64b</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003096200012799</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C60001667a</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D300017556</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083700013675</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003089B0001f654</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 000308FF0001b78b</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003096300017659</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C7000137ba</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D40001c497</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083800010676</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089C00014795</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003090000018647</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000309640001c798</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C8000107b9</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D500019557</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030839000157b6</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089D00011655</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 000309010001d787</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096500019658</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C900015679</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D600016557</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083A0001a7b6</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089E0001e655</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003090200012787</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096600016658</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000309CA0001a679</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D700013497</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083B0001f676</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089F0001b795</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003090300017647</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003096700013798</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309CB0001f7b9</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D000018556</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 000308340001c675</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089800010654</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000308FC0001478b</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096000018659</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C40001c7ba</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D10001d496</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030835000197b5</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003089900015794</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 000308FD0001164b</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000309610001d799</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C50001967a</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D200012496</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030836000167b5</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089A0001a794</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000308FE0001e64b</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096200012799</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000309C60001667a</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D300017556</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083700013675</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089B0001f654</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 000308FF0001b78b</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003096300017659</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C7000137ba</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 000307D40001c497</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 0003083800010676</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 0003089C00014795</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003090000018647</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309640001c798</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309C8000107b9</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D500019557</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 00030839000157b6</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089D00011655</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ DATA_NUM&gt; 000309010001d787</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096500019658</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000309C900015679</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ IO_TYPE&gt; 000307D600016557</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003083A0001a7b6</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089E0001e655</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003090200012787</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003096600016658</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309CA0001a679</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ NET_ID&gt; 000307D700013497</li><li> Gateway : [Rsp]&lt;READ NET_ID&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ IO_TYPE&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003083B0001f676</li><li> Gateway : [Req]&lt;READ ADDRESS&gt; 0003089F0001b795</li><li> Gateway : [Rsp]&lt;READ ADDRESS&gt; 00030200008584</li><li> Gateway : [Rsp]&lt;READ DATA_NUM&gt; 00030200014444</li><li> Gateway : [Req]&lt;READ DATA_FORMAT&gt; 0003090300017647</li><li> Gateway : [Rsp]&lt;READ DATA_FORMAT&gt; 00030200008584</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 0003096700013798</li><li> Gateway : [Rsp]&lt;READ INTERVAL&gt; 000302003c8595</li><li> Gateway : [Req]&lt;READ INTERVAL&gt; 000309CB0001f7b9</li></ol>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:37:05</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">DeviceInfo</p>
+            <p class="text-sm"><span>23:37:05 下午</span> / <span>16.772 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=30</span></div>
+<h5 class="test-status text-pass">DeviceInfo</h5>
+<span class='badge badge-success'>07.18.2021 23:37:05</span>
+<span class='badge badge-danger'>07.18.2021 23:37:22</span>
+<span class='badge badge-default'>16.772 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:10</td>
+        <td>
+          The device info page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/deviceInfoPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/deviceInfoPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:10</td>
+        <td>
+          Serial number： 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:10</td>
+        <td>
+          Bluetooth UUID： 550e8400-e29b-41d4-a716-446655440000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:10</td>
+        <td>
+          MCU UUID： 12466768-64A9-426a-A2E8-ABFDB016B24
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:10</td>
+        <td>
+          NB_RSSI： 0 dBm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:11</td>
+        <td>
+          NB_RSRQ： 0 dBm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:11</td>
+        <td>
+          NB_RSRP： 0 dBm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:11</td>
+        <td>
+          NB_SINR： 0 dBm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:11</td>
+        <td>
+          Reset password page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/resetPWPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/resetPWPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:37:22</td>
+        <td>
+          Reset Device Name pass.
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:37:22</td>
+        <td>
+          Reset Password pass.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="31">DeviceInfo log:</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:22</td>
+        <td>
+          <ol><li> DeviceInfo: [Rsp]&lt;Read Device Name&gt; 010308000000000000000095d7</li><li> DeviceInfo: [Req]&lt;Read APIKEY&gt; 01030200000445b1</li><li> DeviceInfo: [Req]&lt;Read APIKEY&gt; 0103021000044474</li><li> DeviceInfo: [Rsp]&lt;Read APIKEY&gt; 010308000000000000000095d7</li><li> DeviceInfo: [Req]&lt;Read SN&gt; 010402140004b075</li><li> DeviceInfo: [Rsp]&lt;Read SN&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Rsp]&lt;Read RSSI&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read RSRQ&gt; 0104022400017079</li><li> DeviceInfo: [Req]&lt;Read RSRQ&gt; 0104024700018067</li><li> DeviceInfo: [Rsp]&lt;Read RSRQ&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read RSRP&gt; 010402480001b064</li><li> DeviceInfo: [Rsp]&lt;Read RSRP&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read SINR&gt; 010402490001e1a4</li><li> DeviceInfo: [Rsp]&lt;Read SINR&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 010402270004407a</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 010408363830373533343007d3</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 0104022B00048079</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104083632353237390038573a</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 0104022F0004c1b8</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 0104043176322e81de</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E400023000</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040474733630061b</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E80002f003</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401EC0002b1c2</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 0104043176302e80be</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F4000231c5</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F80002f1c6</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read BLE PASSWORD&gt; 010303E80004c479</li><li> DeviceInfo: [Rsp]&lt;Read BLE PASSWORD&gt; 0103083231343336350000282f</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 010302B600016454</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 010302003cb855</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 011003E80004083939393939390000ff18</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011003e8000441ba</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 011003EC00040800000000000000002157</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011003ec0004007b</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 011003F00004080000000000000000f0b8</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011003f00004c1bd</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 011003F400040800000000000000000177</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011003f40004807c</li><li> DeviceInfo: [Req]&lt;Read Device Name&gt; 01030200000445b1</li><li> DeviceInfo: [Rsp]&lt;Read Device Name&gt; 010308000000000000000095d7</li><li> DeviceInfo: [Req]&lt;Read APIKEY&gt; 0103021000044474</li><li> DeviceInfo: [Rsp]&lt;Read APIKEY&gt; 010308000000000000000095d7</li><li> DeviceInfo: [Req]&lt;Read SN&gt; 010402140004b075</li><li> DeviceInfo: [Rsp]&lt;Read SN&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Req]&lt;Read RSSI&gt; 0104022400017079</li><li> DeviceInfo: [Rsp]&lt;Read RSSI&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read RSRQ&gt; 0104024700018067</li><li> DeviceInfo: [Rsp]&lt;Read RSRQ&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read RSRP&gt; 010402480001b064</li><li> DeviceInfo: [Rsp]&lt;Read RSRP&gt; 0104020000b930</li><li> DeviceInfo: [Rsp]&lt;Read SINR&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 010402490001e1a4</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 010402270004407a</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 010408363830373533343007d3</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104083632353237390038573a</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 0104022B00048079</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 0104022F0004c1b8</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 0104043176322e81de</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E400023000</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040474733630061b</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E80002f003</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401EC0002b1c2</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F4000231c5</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 0104043176302e80be</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F80002f1c6</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read BLE PASSWORD&gt; 010303E80004c479</li><li> DeviceInfo: [Rsp]&lt;Read BLE PASSWORD&gt; 0103083939393939390000ba57</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 010302B600016454</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 010302003cb855</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 0110020000040869576c6c32793031c26f</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011002000004c072</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 0110020400040831370038000000006529</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 01100204000481b3</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 01100208000408000000000000000050e7</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 01100208000441b0</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 0110020c00040071</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 0110020C0004080000000000000000a128</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 011002B6000102003C9fd7</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 011002b60001e197</li><li> DeviceInfo: [Req]&lt;Read Device Name&gt; 01030200000445b1</li><li> DeviceInfo: [Rsp]&lt;Read Device Name&gt; 01030869576c6c32793031e680</li><li> DeviceInfo: [Rsp]&lt;Read Device Name&gt; 0103083137003800000000b009</li><li> DeviceInfo: [Req]&lt;Read APIKEY&gt; 0103020400040470</li><li> DeviceInfo: [Req]&lt;Read APIKEY&gt; 0103021000044474</li><li> DeviceInfo: [Rsp]&lt;Read APIKEY&gt; 010308000000000000000095d7</li><li> DeviceInfo: [Req]&lt;Read SN&gt; 010402140004b075</li><li> DeviceInfo: [Rsp]&lt;Read SN&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Req]&lt;Read RSSI&gt; 0104022400017079</li><li> DeviceInfo: [Rsp]&lt;Read RSSI&gt; 0104020000b930</li><li> DeviceInfo: [Rsp]&lt;Read RSRQ&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read RSRP&gt; 0104024700018067</li><li> DeviceInfo: [Req]&lt;Read RSRP&gt; 010402480001b064</li><li> DeviceInfo: [Rsp]&lt;Read RSRP&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read SINR&gt; 010402490001e1a4</li><li> DeviceInfo: [Rsp]&lt;Read SINR&gt; 0104020000b930</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 010402270004407a</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 010408363830373533343007d3</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 0104022B00048079</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104083632353237390038573a</li><li> DeviceInfo: [Req]&lt;Read IMEI&gt; 0104022F0004c1b8</li><li> DeviceInfo: [Rsp]&lt;Read IMEI&gt; 0104080000000000000000240d</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E400023000</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 0104043176322e81de</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401E80002f003</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040474733630061b</li><li> DeviceInfo: [Req]&lt;Read FW VERSION&gt; 010401EC0002b1c2</li><li> DeviceInfo: [Rsp]&lt;Read FW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F4000231c5</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 0104043176302e80be</li><li> DeviceInfo: [Req]&lt;Read HW VERSION&gt; 010401F80002f1c6</li><li> DeviceInfo: [Rsp]&lt;Read HW VERSION&gt; 01040400000000fb84</li><li> DeviceInfo: [Req]&lt;Read BLE PASSWORD&gt; 010303E80004c479</li><li> DeviceInfo: [Rsp]&lt;Read BLE PASSWORD&gt; 0103083939393939390000ba57</li><li> DeviceInfo: [Rsp]&lt;Read KEEP A LIVE&gt; 010302003cb855</li><li> DeviceInfo: [Req]&lt;Read KEEP A LIVE&gt; 010302B600016454</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="warning" test-id="32"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar warning-bg">
+            <i class="fa fa-warning text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Network Status</p>
+            <p class="text-sm"><span>23:37:22 下午</span> / <span>17.897 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=32</span></div>
+<h5 class="test-status text-warning">Network Status</h5>
+<span class='badge badge-success'>07.18.2021 23:37:22</span>
+<span class='badge badge-danger'>07.18.2021 23:37:40</span>
+<span class='badge badge-default'>17.897 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:25</td>
+        <td>
+          Network status page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/networkStatusPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/networkStatusPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:25</td>
+        <td>
+          RSSI： 0 dBm
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:26</td>
+        <td>
+          NETWORK PRIORITY： No Service
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:26</td>
+        <td>
+          MCC： 0
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:26</td>
+        <td>
+          ORDER NUMBER： 718
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:26</td>
+        <td>
+          BAND CatM1： null
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:26</td>
+        <td>
+          BAND NB1： null
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log warning-bg">Warning</span></td>
+        <td>下午 11:37:39</td>
+        <td>
+          Apply button not work.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="33">Network status log :</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:40</td>
+        <td>
+          <ol><li> NetworkStatus: [Req]&lt;READ RSSI&gt; 0104022400017079</li><li> NetworkStatus: [Rsp]&lt;READ RSSI&gt; 0104020000b930</li><li> NetworkStatus: [Req]&lt;READ NETWORK PRIORITY&gt; 010402260001d1b9</li><li> NetworkStatus: [Rsp]&lt;READ NETWORK PRIORITY&gt; 0104020000b930</li><li> NetworkStatus: [Req]&lt;READ MCC&gt; 0104024E00021064</li><li> NetworkStatus: [Rsp]&lt;READ MCC&gt; 01040400000000fb84</li><li> NetworkStatus: [Req]&lt;READ MCC&gt; 0103020400040470</li><li> NetworkStatus: [Rsp]&lt;READ MCC&gt; 0103083137003800000000b009</li><li> NetworkStatus: [Rsp]&lt;READ BAND CATM1&gt; 018302c0f1018302c0f1018302c0f1018302c0f1</li><li> NetworkStatus: [Req]&lt;READ BAND CATM1&gt; 010302480004c5a7</li><li> NetworkStatus: [Rsp]&lt;READ BAND CATM1&gt; 010308561c561c561c561cfed3</li><li> NetworkStatus: [Req]&lt;READ BAND NB1&gt; 0103024900049467</li><li> NetworkStatus: [Rsp]&lt;READ BAND NB1&gt; 018302c0f1018302c0f1018302c0f1018302c0f1</li><li> NetworkStatus: [Rsp]&lt;READ BAND NB1&gt; 010308561c561c561c561cfed3</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">Cloud Setting</p>
+            <p class="text-sm"><span>23:37:40 下午</span> / <span>14.634 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=34</span></div>
+<h5 class="test-status text-pass">Cloud Setting</h5>
+<span class='badge badge-success'>07.18.2021 23:37:40</span>
+<span class='badge badge-danger'>07.18.2021 23:37:54</span>
+<span class='badge badge-default'>14.634 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:42</td>
+        <td>
+          Cloud setting page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/cloudSettingPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/cloudSettingPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:54</td>
+        <td>
+          After Cloud setting edited.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/cloudSettingPage.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/cloudSettingPage.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:54</td>
+        <td>
+          After cloud setting edited ：
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">
+            <div class="node" id="35">Cloud setting log :</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class>
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:37:54</td>
+        <td>
+          <ol><li> CloudSetting: [Req]&lt;Read CLOUD CONFIG&gt; 010303f8000105bf</li><li> CloudSetting: [Rsp]&lt;Read CLOUD CONFIG&gt; 010302420088e4</li><li> CloudSetting: [Req]&lt;Read APIKEY&gt; 0103021000044474</li><li> CloudSetting: [Rsp]&lt;Read APIKEY&gt; 010308000000000000000095d7</li><li> CloudSetting: [Rsp]&lt;Read BROKER IP&gt; 010308000000000000000095d7</li><li> CloudSetting: [Req]&lt;Read BROKER PORT&gt; 01030BB80004c608</li><li> CloudSetting: [Req]&lt;Read BROKER PORT&gt; 010302840001c59b</li><li> CloudSetting: [Rsp]&lt;Read BROKER PORT&gt; 0103020000b844</li><li> CloudSetting: [Req]&lt;Read CLIENT ID&gt; 0103028500045458</li><li> CloudSetting: [Rsp]&lt;Read CLIENT ID&gt; 010308000000000000000095d7</li><li> CloudSetting: [Rsp]&lt;Read USER NAME&gt; 010308000000000000000095d7</li><li> CloudSetting: [Req]&lt;Read USER PASSWORD&gt; 010302950004559d</li><li> CloudSetting: [Req]&lt;Read USER PASSWORD&gt; 010302A500045592</li><li> CloudSetting: [Rsp]&lt;Read USER PASSWORD&gt; 010308000000000000000095d7</li><li> CloudSetting: [Req]&lt;WRITE CLOUD CONFIG&gt; 011003f800010200020129</li><li> CloudSetting: [Rsp]&lt;WRITE CLOUD CONFIG&gt; 011003f80001807c</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 0110028400010204D15948</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 0110028400014058</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BB800040832312e372e302e304a07</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bb8000443cb</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BBC0004080031000000000000de1c</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bbc0004020a</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BC00004080000000000000000afb0</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bc00004c3d2</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bc400048213</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BC400040800000000000000005e7f</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BC800040800000000000000004e6f</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bc800044210</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BCC0004080000000000000000bfa0</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bcc000403d1</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BD000040800000000000000006e4f</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bd00004c217</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100BD400040800000000000000009f80</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 01100bd4000483d6</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100285000408704169706d7565548641</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002850004d19b</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002890004087473000000000000eb4a</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 0110028900041198</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 0110028D00040800000000000000005e95</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 0110028d00045059</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002910004919f</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 0110029100040800000000000000008f7a</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 01100295000408704169706d7500006d11</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002950004d05e</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 0110029900040800000000000000006ea5</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002990004105d</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 0110029D00040800000000000000009f6a</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 0110029d0004519c</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002A10004080000000000000000cf3a</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002a100049190</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002a50004d051</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002A50004083231343336350000830d</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002a900041052</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002A900040800000000000000002ee5</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002AD0004080000000000000000df2a</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002ad00045193</li><li> CloudSetting: [Req]&lt;WRITE MQTT PORT&gt; 011002B100040800000000000000000ec5</li><li> CloudSetting: [Rsp]&lt;WRITE MQTT PORT&gt; 011002b100049055</li><li> CloudSetting: [Rsp]&lt;Read CLOUD CONFIG&gt; 01030200023985</li><li> CloudSetting: [Req]&lt;Read APIKEY&gt; 010303f8000105bf</li><li> CloudSetting: [Req]&lt;Read APIKEY&gt; 0103021000044474</li><li> CloudSetting: [Rsp]&lt;Read APIKEY&gt; 010308000000000000000095d7</li><li> CloudSetting: [Rsp]&lt;Read BROKER IP&gt; 01030832312e372e302e30d0c0</li><li> CloudSetting: [Req]&lt;Read BROKER IP&gt; 01030BB80004c608</li><li> CloudSetting: [Rsp]&lt;Read BROKER IP&gt; 0103080031000000000000b514</li><li> CloudSetting: [Req]&lt;Read BROKER PORT&gt; 01030BBC000487c9</li><li> CloudSetting: [Req]&lt;Read BROKER PORT&gt; 010302840001c59b</li><li> CloudSetting: [Rsp]&lt;Read BROKER PORT&gt; 01030204d17ad8</li><li> CloudSetting: [Req]&lt;Read CLIENT ID&gt; 0103028500045458</li><li> CloudSetting: [Rsp]&lt;Read CLIENT ID&gt; 010308704169706d756554acdc</li><li> CloudSetting: [Rsp]&lt;Read CLIENT ID&gt; 0103087473000000000000d1c7</li><li> CloudSetting: [Req]&lt;Read USER NAME&gt; 010302890004945b</li><li> CloudSetting: [Rsp]&lt;Read USER NAME&gt; 010308704169706d7500008673</li><li> CloudSetting: [Req]&lt;Read USER PASSWORD&gt; 010302950004559d</li><li> CloudSetting: [Req]&lt;Read USER PASSWORD&gt; 010302A500045592</li><li> CloudSetting: [Rsp]&lt;Read USER PASSWORD&gt; 0103083231343336350000282f</li></ol>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">RemoteControl</p>
+            <p class="text-sm"><span>23:37:54 下午</span> / <span>42.654 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=36</span></div>
+<h5 class="test-status text-pass">RemoteControl</h5>
+<span class='badge badge-success'>07.18.2021 23:37:54</span>
+<span class='badge badge-danger'>07.18.2021 23:38:37</span>
+<span class='badge badge-default'>42.654 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:11</td>
+        <td>
+          Remote control page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteControl.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteControl.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:15</td>
+        <td>
+          Remote control start page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteControlStart.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteControlStart.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:22</td>
+        <td>
+          Remote control website page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteWebSite.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteWebSite.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:37</td>
+        <td>
+          Remote control device list page.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteDevice.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/remoteDevice.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:38:37</td>
+        <td>
+          Remote control access success.
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag=""
+          device="">
+          <div class="status-avatar pass-bg">
+            <i class="fa fa-check text-white"></i>
+          </div>
+          <div class="test-detail">
+            <span class="meta text-white badge badge-sm"></span>
+            <p class="name">ReLogin</p>
+            <p class="text-sm"><span>23:38:37 下午</span> / <span>23.596 secs</span></p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<div class='float-right'><span class='badge badge-default'>#test-id=37</span></div>
+<h5 class="test-status text-pass">ReLogin</h5>
+<span class='badge badge-success'>07.18.2021 23:38:37</span>
+<span class='badge badge-danger'>07.18.2021 23:39:01</span>
+<span class='badge badge-default'>23.596 secs</span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:40</td>
+        <td>
+          After restart app.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/reStart.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/reStart.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:42</td>
+        <td>
+          Choose device again.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/reChoose.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/reChoose.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:45</td>
+        <td>
+          Reset password and login success!
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:48</td>
+        <td>
+          Current Device Info ：Willy210718
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>下午 11:38:50</td>
+        <td>
+          Auto input reset password.
+    <div class="row mb-3"><div class="col-md-3">
+    <img data-featherlight='https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInputReset.png' src="https://raw.githubusercontent.com/KuanChunChen/WM_Evt_Site/gh-pages/evtReports/android/full-test/r6/screenshots/AfterInputReset.png">
+    
+    </div></div>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>下午 11:39:01</td>
+        <td>
+          pass
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>七月 18, 2021 11:33:14 下午</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>七月 18, 2021 11:39:01 下午</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>17</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='89%'>
+<b>17</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='10%'>2</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='94%'><b>17</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>1</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='16%'><b>20</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>100</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 17,
+failParent: 0,
+warningParent: 2,
+skipParent: 0,
+childCount: 5,
+passChild: 17,
+failChild: 0,
+warningChild: 1,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 20,
+failEvents: 0,
+warningEvents: 2,
+skipEvents: 0,
+infoEvents: 98
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@5cf22a596531402644b8523470526952516f345f/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
